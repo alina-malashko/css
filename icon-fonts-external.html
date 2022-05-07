@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=320, initial-scale=1.0">
+<title>icon-fonts</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+    body {
+        margin: 0;
+        background-color: #ebebeb;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    .headline {
+        color: #424242;
+        text-transform: uppercase;
+        font-size: 3em;
+        width: 60%;
+        margin: 20px auto 60px;
+        text-align: center;
+    }
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+    .container {
+        width: 24%;
+        margin: 0 1% 30px 0;
+        float: left;
+    }
+    .button {
+        display: block;
+    }
+    .text {
+        width: 75%;
+        height: 80px;
+        margin-left: 25%;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background-color: #ffa600;
+        box-shadow: 0 2px 0 #515151;
+        color: white;
+        border-left: #424242 solid 2px;
+    }
+    .text p {
+        text-shadow: 1px 1px 2px black;
+        margin: 0;
+        padding-left: 10px;
+        font-size: 0.8em;
+    }
+    p.button__headline {
+        font-size: 1.2em;
+        padding-top: 12px;
+        padding-bottom: 6px;
+    }
+    .icon {
+        background-color: #424242;
+        width: 25%;
+        height: 80px;
+        border: none;
+        border-right: solid 1px #515151;
+        border-radius: 5px 0 0 5px;
+        box-shadow: 0 2px 0 #000000;
+        float: left;
+        font-size: 2.5em;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+    @media all and (max-width: 1024px) {
+        .container {
+        width: 32%;
+        margin: 0 2% 30px 0;
+    }
+        .container:nth-child(3n+3) {
+            margin-right: 0;
+        }
+        .headline {
+            font-size: 2em;
+        }
+    }
+    @media all and (max-width: 768px) {
+        .container {
+        width: 48%;
+        margin: 0 2% 30px 0;
+    }
+        .container:nth-child(3n+3) {
+            margin-right: 2%;
+        }
+        .container:nth-child(even) {
+            margin-right: 0;
+        }
+    }
+    @media all and (max-width: 480px) {
+        .container {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .headline {
+            font-size: 1.5em;
+        }
+    }
+</style>
+</head>
+<body>
+    <p class="headline">Кнопки с использованием иконических шрифтов</p>
+    <div class="main">
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-facebook"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Facebook</p>
+                    <p>Посетить Facebook</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-windows8"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Windows 8</p>
+                    <p>Microsoft Windows 8</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-rss"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">RSS</p>
+                    <p>Подпишитесь по RSS</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-skype"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Skype</p>
+                    <p>Позвонить по Skype</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-opera"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Opera</p>
+                    <p>Установить Opera</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-film"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Видеозаписи</p>
+                    <p>Просмотреть видео</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-twitter"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Twitter</p>
+                    <p>Посетить Twitter</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-github"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Github</p>
+                    <p>Посетить Github</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-cogs"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Настройки</p>
+                    <p>Перейти к настройкам</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-IE"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Explorer 10</p>
+                    <p>Установить IE 10</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-safari"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Apple Safari</p>
+                    <p>Установить Safari</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-images"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Галерея</p>
+                    <p>Просмотреть галерею</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-google-plus"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Google</p>
+                    <p>Посетить Google</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-css3"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">CSS3</p>
+                    <p>Взгляните на CSS3</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-home3"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Главная</p>
+                    <p>На главную страницу</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-chrome"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Google Chrome</p>
+                    <p>Установить Chrome</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-steam2"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Steam клиент</p>
+                    <p>Установить Steam</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-music"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Аудиозаписи</p>
+                    <p>Прослушать аудио</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-pinterest"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Pinterest</p>
+                    <p>Посетить Pinterest</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-html-five"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">HTML5</p>
+                    <p>Узрите HTML5</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-download3"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Скачать</p>
+                    <p>Размер: 32.4кб</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-firefox"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Mozilla Firefox</p>
+                    <p>Установить Firefox</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-appleinc"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Apple</p>
+                    <p>Перейти на сайт</p>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="#" title="button" class="button">
+                <div class="icon">
+                    <span class="icon-user"></span>
+                </div>
+                <div class="text">
+                    <p class="button__headline">Профиль</p>
+                    <p>Перейти в профиль</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
